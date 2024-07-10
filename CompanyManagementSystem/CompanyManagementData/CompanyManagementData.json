@@ -1,0 +1,6 @@
+{
+    "Company":[{"id":1,"Nom":"EPO"}, {"id":2,"Nom":"CITADEL"}, {"id":3,"Nom":"IST"},{"id":4,"Nom":"ISGE"},{"id":5,"Nom":"IAM"}],
+    "Department":[{"id":1,"No": "A1", "Department name":"Informatique"},{"id":2,"No": "A2", "Department name":"Physique"}, {"id":3,"No": "A3", "Department name":"SVT"}, {"id":4,"No": "A4", "Department name":"Medecine"}],
+    "Employee":[{"id":1,"No":123, "NOM":"ADAMA"},{"id":2,"No":1223, "NOM":"KARIM"},{"id":3,"No":1203, "NOM":"EMILE"},{"id":4,"No":12, "NOM":"LETICIA"},{"id":5,"No":13, "NOM":"BILLY"}]
+    
+}
