@@ -8,6 +8,14 @@ import { EmployeeListComponent } from './component/employee/employee-list/employ
 import { EmployeeDetailComponent } from './component/employee/employee-detail/employee-detail.component';
 import { DepartmentListComponent } from './component/department/department-list/department-list.component';
 import { DepartmentDetailComponent } from './component/department/department-detail/department-detail.component';
+import{HttpClientModule} from '@angular/common/http'
+import { RouterModule, Routes} from '@angular/router';
+import { AppRoutingModuleModule } from './app-routing-module/app-routing-module.module';
+import { SuboordonneListComponent } from './component/suboordoned/suboordonne-list/suboordonne-list.component';
+
+const routes: Routes = [
+
+];
 
 @NgModule({
   declarations: [
@@ -17,10 +25,11 @@ import { DepartmentDetailComponent } from './component/department/department-det
     EmployeeListComponent,
     EmployeeDetailComponent,
     DepartmentListComponent,
-    DepartmentDetailComponent
+    DepartmentDetailComponent,
+    SuboordonneListComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule, HttpClientModule, RouterModule.forRoot(routes), AppRoutingModuleModule
   ],
   providers: [],
   bootstrap: [AppComponent]
