@@ -11,7 +11,7 @@ export class DepartmentListComponent implements OnInit {
   public listCompany:Array<any>=[]
     constructor( private sr: DepartementServiceService){}
 ngOnInit(): void {
-  
+  this.getData() 
 }
 
 getData(){

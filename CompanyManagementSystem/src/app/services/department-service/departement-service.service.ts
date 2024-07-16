@@ -6,7 +6,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class DepartementServiceService {
-  apiUrl='http://localhost:3000/Company'
+  apiUrl='http://localhost:3000/Department'
   constructor(private http : HttpClient) { }
 
   getData():Observable<Array<any>>{
