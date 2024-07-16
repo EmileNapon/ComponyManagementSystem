@@ -1,9 +1,15 @@
+import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
+import { Observable } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
 })
 export class DepartementServiceService {
+  apiUrl='http://localhost:3000/Company'
+  constructor(private http : HttpClient) { }
 
-  constructor() { }
+  getData():Observable<Array<any>>{
+     return this.http.get<Array<any>>(this.apiUrl)
+  }
 }

@@ -13,9 +13,7 @@ import { RouterModule, Routes} from '@angular/router';
 import { AppRoutingModuleModule } from './app-routing-module/app-routing-module.module';
 import { SuboordonneListComponent } from './component/suboordoned/suboordonne-list/suboordonne-list.component';
 
-const routes: Routes = [
-
-];
+const routes: Routes = [];
 
 @NgModule({
   declarations: [
