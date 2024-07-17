@@ -16,6 +16,9 @@ c:any
 
   }
   ngOnInit() {
+    this.getData()
+  }
+  getData(){
     this.sr.getData().subscribe({
       next:data=>{ this.listCompany=data}, error:err=>{console.error('kkkk')}
       

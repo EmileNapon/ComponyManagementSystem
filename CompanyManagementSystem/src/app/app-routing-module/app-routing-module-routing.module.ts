@@ -6,6 +6,7 @@ import { CompanyDetailComponent } from '../component/company/company-detail/comp
 import { DepartmentDetailComponent } from '../component/department/department-detail/department-detail.component';
 import { EmployeeListComponent } from '../component/employee/employee-list/employee-list.component';
 import { EmployeeDetailComponent } from '../component/employee/employee-detail/employee-detail.component';
+import { SuboordonneListComponent } from '../component/suboordoned/suboordonne-list/suboordonne-list.component';
 
 
 
@@ -13,10 +14,11 @@ import { EmployeeDetailComponent } from '../component/employee/employee-detail/e
 const routes: Routes = [ 
 { path: 'companies', component: CompanyListComponent },
 { path: 'companies/:id', component: CompanyDetailComponent },
-{ path: '', component: DepartmentListComponent },
+{ path: 'dep', component: DepartmentListComponent },
 { path: 'departments/:id', component: DepartmentDetailComponent },
 { path: 'employees', component: EmployeeListComponent },
 { path: 'employees/:id', component: EmployeeDetailComponent },
+{ path: 'sub', component: SuboordonneListComponent },
 { path: '', redirectTo: '/companies', pathMatch: 'full' }];
 
 @NgModule({
